@@ -10,14 +10,14 @@ const Nav = () => {
     <nav className=" flex-between w-full mb-16 pt-3">
       <Link href="/" className="flex gap-2 flex-center">
         <Image
-          priority
-          src="/public/images/logo.svg"
+          src="/images/logo.svg"
           alt="logo"
           width={30}
           height={30}
           className="object-contain"
+          r
         />
-        {/* <img src={require("/public/images/logo.svg")} alt="ss" /> */}
+        <p className="logo_text">Prompt AI</p>
       </Link>
     </nav>
   );
